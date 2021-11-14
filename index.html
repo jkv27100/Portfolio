@@ -13,75 +13,77 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <nav class="navbar-container">
-      <div class="navbar-content">
-        <div style="color: aliceblue">Journey</div>
-        <div style="color: aliceblue">Skills</div>
-        <div style="color: aliceblue">Projects</div>
-        <div style="color: aliceblue">Contact</div>
-        <div style="color: aliceblue">Comments</div>
-      </div>
-    </nav>
-    <section>
-      <div class="landing-sec">
-        <div
-          style="
-            display: flex;
-            width: 100%;
-            height: 100%;
-            justify-content: center;
-            align-items: center;
-          "
-        >
-          <h1>Welcome</h1>
+    <div class="container">
+      <nav class="navbar-container">
+        <div class="navbar-content">
+          <a style="color: aliceblue" href="#journey">Journey</a>
+          <a style="color: aliceblue" href="#skills">Skills</a>
+          <a style="color: aliceblue" href="#projects">Projects</a>
+          <a style="color: aliceblue" href="#">Comments</a>
         </div>
-      </div>
-    </section>
-    <section>
-      <div class="journey-sec">
-        <div
-          style="
-            display: flex;
-            width: 100%;
-            height: 100%;
-            justify-content: center;
-            align-items: center;
-          "
-        >
-          <h1>Journey</h1>
+      </nav>
+      <section id="landing" style="scroll-margin-top: 100px">
+        <div class="landing-sec">
+          <div style="display: flex; flex-direction: column">
+            <h1 class="name">Hi, I'm JAGANNATH</h1>
+            <h2 class="subhead">A Full-Stack Developer</h2>
+          </div>
+          <div class="image">
+            <!-- <img
+              src="./me.png"
+              alt="loading..."
+              srcset=""
+              style="height: 40%; width: 20%; border-radius: 50px"
+            /> -->
+          </div>
         </div>
-      </div>
-    </section>
-    <section>
-      <div class="skills-sec">
-        <div
-          style="
-            display: flex;
-            width: 100%;
-            height: 100%;
-            justify-content: center;
-            align-items: center;
-          "
-        >
-          <h1>Skills</h1>
+      </section>
+      <section id="journey">
+        <div class="journey-sec">
+          <div
+            style="
+              display: flex;
+              width: 100%;
+              height: 100%;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <h1>Journey</h1>
+          </div>
         </div>
-      </div>
-    </section>
-    <section>
-      <div class="projects-sec">
-        <div
-          style="
-            display: flex;
-            width: 100%;
-            height: 100%;
-            justify-content: center;
-            align-items: center;
-          "
-        >
-          <h1>Projects</h1>
+      </section>
+      <section id="skills">
+        <div class="skills-sec">
+          <div
+            style="
+              display: flex;
+              width: 100%;
+              height: 100%;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <h1>Skills</h1>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section id="projects">
+        <div class="projects-sec">
+          <div
+            style="
+              display: flex;
+              width: 100%;
+              height: 100%;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <h1>Projects</h1>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
   <script src="./main.js"></script>
 </html>
