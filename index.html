@@ -5,39 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Sofia"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <div class="container">
-      <nav class="navbar-container">
-        <div class="navbar-content">
-          <a style="color: aliceblue" href="#journey">Journey</a>
-          <a style="color: aliceblue" href="#skills">Skills</a>
-          <a style="color: aliceblue" href="#projects">Projects</a>
-          <a style="color: aliceblue" href="#">Comments</a>
-        </div>
-      </nav>
-      <section id="landing" style="scroll-margin-top: 100px">
+      <section id="landing" class="reveal">
         <div class="landing-sec">
-          <div style="display: flex; flex-direction: column">
-            <h1 class="name">Hi, I'm JAGANNATH</h1>
-            <h2 class="subhead">A Full-Stack Developer</h2>
-          </div>
+          <div class="leftsec"></div>
+          <div class="rightsec"></div>
+            <div class="boxes">
           <div class="image">
-            <!-- <img
-              src="./me.png"
-              alt="loading..."
-              srcset=""
-              style="height: 40%; width: 20%; border-radius: 50px"
-            /> -->
+              <img src="./me.png" alt="" style="width: 90%;height: 100%;border-radius: 25px">
           </div>
+          <div class="description">
+             <div class="des-content">
+                 <h1>i'm jagannath.</h1>
+                 <h1 style="color: white;" class="header">full-stack developer</h1>
+                 <p class="details">I'm a full-stack developer focused on crafting clean & 
+                     user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+             </div>
+          </div>
+          <div class="navbar-container">
+            <div class="navbar-content">
+              <a style="color: aliceblue" href="#journey"><span>Journey</span><i class="fas fa-home"></i></a>
+              <a style="color: aliceblue" href="#skills">Skills</a>
+              <a style="color: aliceblue" href="#projects">Projects</a>
+              <a style="color: aliceblue" href="#">Comments</a>
+            </div>
+            </div>
+          </div>
+          </div>
+        </section>
         </div>
-      </section>
       <section id="journey">
         <div class="journey-sec">
           <div

@@ -1,12 +1,40 @@
-// ScrollReveal().reveal(".sec1-txt1", {
+const animation = ScrollReveal({ reset: true });
+
+// animation.reveal(".reveal", {
 //   delay: 500,
-//   rotate: {
-//     x: 20,
-//     z: 20,
-//   },
+//   origin: "top",
+//   distance: "20px",
+//   easing: "cubic-bezier(0.5, 0, 0, 1)",
 // });
 
-// ScrollReveal().reveal(".sec1-txt2", {
+animation.reveal(".image", {
+  delay: 500,
+  origin: "left",
+  duration: 1500,
+  distance: "20px",
+  easing: "cubic-bezier(0.5, 0, 0, 1)",
+});
+
+animation.reveal(".des-content", {
+  delay: 1000,
+  origin: "top",
+  distance: "20px",
+  easing: "cubic-bezier(0.5, 0, 0, 1)",
+});
+animation.reveal(".header", {
+  delay: 1200,
+  origin: "top",
+  distance: "20px",
+  easing: "cubic-bezier(0.5, 0, 0, 1)",
+});
+animation.reveal(".details", {
+  delay: 1400,
+  origin: "top",
+  distance: "20px",
+  easing: "cubic-bezier(0.5, 0, 0, 1)",
+});
+
+// ScrollReveal().reveal(".reveal", {
 //   delay: 700,
 //   easing: "cubic-bezier(0.5, 0, 0, 1)",
 //   rotate: {
