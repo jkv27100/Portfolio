@@ -1,4 +1,6 @@
 const animation = ScrollReveal({ reset: true });
+const btn = document.getElementById("btn-id");
+const title = document.getElementById("title");
 
 // animation.reveal(".reveal", {
 //   delay: 500,
@@ -31,6 +33,14 @@ animation.reveal(".details", {
   delay: 1400,
   origin: "top",
   distance: "20px",
+  easing: "cubic-bezier(0.5, 0, 0, 1)",
+});
+
+ScrollReveal().reveal(".slide-up", {
+  distance: "150%",
+  duration: 1500,
+  origin: "top",
+  opacity: null,
   easing: "cubic-bezier(0.5, 0, 0, 1)",
 });
 
