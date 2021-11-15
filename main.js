@@ -1,13 +1,4 @@
 const animation = ScrollReveal({ reset: true });
-const btn = document.getElementById("btn-id");
-const title = document.getElementById("title");
-
-// animation.reveal(".reveal", {
-//   delay: 500,
-//   origin: "top",
-//   distance: "20px",
-//   easing: "cubic-bezier(0.5, 0, 0, 1)",
-// });
 
 animation.reveal(".image", {
   delay: 500,
@@ -36,7 +27,7 @@ animation.reveal(".details", {
   easing: "cubic-bezier(0.5, 0, 0, 1)",
 });
 
-ScrollReveal().reveal(".slide-up", {
+animation.reveal(".slide-up", {
   distance: "150%",
   duration: 1500,
   origin: "top",
@@ -44,11 +35,52 @@ ScrollReveal().reveal(".slide-up", {
   easing: "cubic-bezier(0.5, 0, 0, 1)",
 });
 
-// ScrollReveal().reveal(".reveal", {
-//   delay: 700,
-//   easing: "cubic-bezier(0.5, 0, 0, 1)",
-//   rotate: {
-//     x: 20,
-//     z: 20,
-//   },
-// });
+animation.reveal(".rotate1", {
+  delay: 1600,
+  origin: "right",
+  rotate: {
+    x: 200,
+    z: 100,
+    y: 100,
+  },
+});
+
+animation.reveal(".rotate2", {
+  delay: 1700,
+  origin: "right",
+  rotate: {
+    x: 100,
+    z: 100,
+    y: 100,
+  },
+});
+
+animation.reveal(".rotate3", {
+  delay: 1800,
+  origin: "right",
+  rotate: {
+    x: 100,
+    z: 100,
+    y: 100,
+  },
+});
+
+animation.reveal(".rotate4", {
+  delay: 1900,
+  origin: "right",
+  rotate: {
+    x: 100,
+    z: 100,
+    y: 100,
+  },
+});
+
+animation.reveal(".rotate5", {
+  delay: 2000,
+  origin: "right",
+  rotate: {
+    x: 100,
+    z: 100,
+    y: 100,
+  },
+});
