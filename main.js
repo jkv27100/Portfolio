@@ -1,4 +1,15 @@
 const animation = ScrollReveal({ reset: true });
+const tooltip = document.getElementById("hoverid");
+
+function mouseover() {
+  tooltip.style.borderRadius = "25%";
+  tooltip.style.transition = "0.3s ease";
+}
+
+function mouseout() {
+  tooltip.style.borderRadius = "50%";
+  tooltip.style.transition = "0.3s ease";
+}
 
 animation.reveal(".image", {
   delay: 500,

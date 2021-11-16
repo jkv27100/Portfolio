@@ -120,17 +120,10 @@ section {
   justify-content: center;
   background: #ffb400;
   border-radius: 50%;
-  transition: 0.3s ease;
 }
-.tooltip:hover {
-  border-radius: 25%;
-  transition: 0.3s ease;
-}
-
 .journey-sec {
   flex-grow: 1;
   width: 100%;
-  background: yellow;
 }
 
 .skills-sec {
