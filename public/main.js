@@ -1,5 +1,12 @@
-const animation = ScrollReveal({ reset: false });
+const animation = ScrollReveal();
 const btn = document.getElementById("button");
+const resume = document.getElementById("resume");
+
+resume.addEventListener("click", function () {
+  window.open(
+    "https://docs.google.com/document/d/1ysLXTJi-xHlS1YVOsXks_sqrBUEd9Xjg/edit?usp=sharing&ouid=110292428607127966878&rtpof=true&sd=true"
+  );
+});
 
 document.addEventListener("scroll", handleScroll);
 // get a reference to our predefined button

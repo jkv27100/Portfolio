@@ -93,6 +93,7 @@ section {
   color: #ffb400;
   line-height: 62px;
 }
+
 .des-content > p {
   font-weight: 500;
   text-align: left;
@@ -317,12 +318,15 @@ section {
   initial-value: 0;
 }
 
+.animate {
+  animation: growProgressBar 3s 1 forwards;
+}
+
 div[role="progressbar"] {
   --size: 8rem;
   --fg: #ffb400;
   --bg: #20201e;
   --pgPercentage: var(--value);
-  animation: growProgressBar 3s 1 forwards;
   width: var(--size);
   height: var(--size);
   border-radius: 50%;
@@ -404,6 +408,76 @@ div[role="progressbar"]::before {
 
 .comment-container {
   width: 80%;
-  height: 100%;
-  background-color: red;
+  height: 60%;
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-style: italic;
+  width: 500px;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #fff;
+}
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 130px;
+  position: absolute;
+  left: -50px;
+  top: -70px;
+  color: #929292;
+}
+
+blockquote cite {
+  color: #ffb400;
+  font-size: 18px;
+  display: block;
+  margin-top: 5px;
+}
+
+blockquote cite:before {
+  content: "\2014 \2009";
+}
+
+.footer {
+  width: 80%;
+  border-top: 1px solid rgb(116, 113, 113);
+}
+
+.footer-content {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links > p {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.footer-social > p {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
 }
